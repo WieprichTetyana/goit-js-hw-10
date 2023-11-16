@@ -1,0 +1,26 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.loader,
+.error {
+  display: none;
+}
+
+.cat-info {
+  margin-top: 20px;
+  width: 500px;
+}
+
+p {
+  margin-bottom: 5px;
+}
+
+.breed-select {
+  align-self: flex-start;
+  width: 200px;
+  height: 40px;
+}
