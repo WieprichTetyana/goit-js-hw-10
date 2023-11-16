@@ -1,17 +1,11 @@
 import { fetchBreeds, fetchCatByBreed } from './cat-api';
-/* import SlimSelect from 'slim-select';
-import 'slim-select/dist/slimselect.css';
- */
+
 const breedSelect = document.querySelector('.breed-select');
 const catInfo = document.querySelector('.cat-info');
 const loaderInfo = document.querySelector('.loader');
 const errorInfo = document.querySelector('.error');
 
-/* const slim  = new SlimSelect({
-    select: '.breed-select',
-    placeholder: 'Select a breed',
-    searchPlaceholder: 'Search',
-}); */
+
 
 window.addEventListener('DOMContentLoaded', onLoad);
 breedSelect.addEventListener('change', onBreedSelectorChange);
